@@ -1,0 +1,193 @@
+*{
+	margin:0;
+	padding: 0;
+}
+header{
+
+    background-color:#7FA8F4;
+    color:#fff;
+    height:90px;
+    position: static;
+  	
+    z-index: 100;
+    /*margin-top: 5px;*/
+}
+footer{
+	background-color:#7FA8F4;
+	height: 100px;
+}
+
+
+#logo{
+	height:90px;
+    width:210px;
+    /*background-color:#7FA8F4;*/
+    /*margin legt es margen izquierdo*/
+    margin-left:30px;
+    margin-bottom: 0px;
+    /*COMO HACER PARA PONER IMAGEN EN LA PARTE DEL LOGO?*/
+    /*display: inline-block;*/
+    background-image: url(../imagenes/logoTICS.png) ;
+    background-size: cover; 
+    border-image-width: 50px;
+
+
+    background-repeat: none;
+}
+.galeria{
+    width:100%; 
+    height: 100%;
+    border-radius: 31px 96px 13px 1px;
+    -moz-border-radius: 31px 96px 13px 1px;
+    -webkit-border-radius: 31px 96px 13px 1px;
+    border: 0px solid #000000;
+}
+.card{
+	width:100%; 
+	height: 100%;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/*.uno{
+	background-size: cover;
+	
+	
+}
+*/
+	body
+{
+    /*background-color: black; /* La página de fondo será negra */
+    background: rgba(74,74,74,1);
+    color: white; /*El texto de la página será blanco */
+}
+#interesante{
+	 background-image: url(../imagenes/interesante.jpg) ;
+}
+
+.redondeo{
+    width:350px; 
+    height: 250px;
+    background-color:#7FA8F4;
+	border-radius: 48px 48px 48px 48px;
+    -moz-border-radius: 48px 48px 48px 48px;
+    -webkit-border-radius: 48px 48px 48px 48px;
+    border: 1px solid #000000;
+    background-color: #0590B8;
+
+}
+.btn-main{
+    color: white;
+    background-color: #0590B8;
+}
+.btn-main:hover{
+    background-color: orange;
+}
+.tex{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#icon{
+	font-size: 3rem;
+    /*background-color:#7FA8F4;*/
+    /*margin legt es margen izquierdo*/
+    /*margin-left:30px;
+    margin-bottom: 0px;
+
+    /*COMO HACER PARA PONER IMAGEN EN LA PARTE DEL LOGO?*/
+    /*display: inline-block;*/
+    
+    /*background-size: cover; 
+    /*border-image-width: 50px;*/
+    
+    
+}
+
+#tw{
+	
+	margin-top: 25px;
+	/*height:90px;
+    width:210px;
+    /*background-color:#7FA8F4;*/
+    /*margin legt es margen izquierdo*/
+    /*margin-left:30px;
+    margin-bottom: 0px;
+    /*COMO HACER PARA PONER IMAGEN EN LA PARTE DEL LOGO?*/
+    /*display: inline-block;*/
+    /*background-image: url(imagenes/tw.png) ;
+    background-size: cover; 
+    /*border-image-width: 50px;*/
+
+
+    background-repeat: none;
+}
+
+#ins{
+	margin-top: 15px;
+	/*height:90px;
+    width:210px;
+    /*background-color:#7FA8F4;*/
+    /*margin legt es margen izquierdo*/
+    /*margin-left:30px;
+    margin-bottom: 0px;
+    /*COMO HACER PARA PONER IMAGEN EN LA PARTE DEL LOGO?*/
+    /*display: inline-block;*/
+    /*YA FUNCIONA PONER LA IMAGEN AQUI*/
+    /*background-image: url(imagenes/ins.png) ;*/
+    background-size: cover; 
+    /*border-image-width: 50px;*/
+
+
+    background-repeat: none;
+}
+
+#slide-main{
+    height:20px;
+    width: 100%;
+
+    background-color:#10F3E0;
+    background-image: url(../imagenes/alumnos.jpg);
+    background-repeat:no-repeat;
+    background position: 0 0;
+    background-size: 100% 100%;
+    /*z-index=1*/
+
+}
+.linea{
+	width: 70%;
+	height:20px;
+	background-color:black;
+}
+
+.navbar{
+
+}
+.main {
+	background:#f2f2f2;
+}
+
+.color1 {
+	background: blue;
+	color:#fff;
+}
+.color3 {
+	margin-top: 65px;
+	background: blue;
+	color:#fff;
+	height:100px;
+    width: 100%;
+
+}
+
+aside {
+	background:#6090E8;
+	color:#fff;
+}
+
+
+.nosotros{
+	background-color:pink;
+}

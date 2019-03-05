@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+	
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<link  href="https://fonts.googleapis.com/css?family=Arimo|Josefin+Slab|PT+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="estilos.css">
+	<style>
+		h3{
+			font-family: 'Josefin Slab', sans-serif;
+			font-size: 25px;
+		}
+		h5{
+			font-family: 'Josefin Slab', sans-serif;
+			font-size: 25px;
+		}
+		p{
+			font-family: 'PT Sans', sans-serif;
+			font-size: 15px;
+		}
+
+
+	</style>
+	
+	<title>ITA-TICS</title>
+</head>
+<body>
+	<header>
+		<section class="main row">
+
+			<div class="container-fluid col-xs-3 col-sm-3 col-md-3 col-lg-8">
+				<div id="logo"></div>
+			
+			</div>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light  col-xs-9 col-sm-9 col-md-9 col-lg-4">
+	  				<a class="navbar-brand" href="#">Inicio</a>
+	  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="		navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	   				 	<span class="navbar-toggler-icon"></span>
+	  				</button>
+	  				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    			<div class="navbar-nav">
+		     		 	<a class="nav-item nav-link active" href="#">Nosotros <span class="sr-only">(current)</span></a>
+		      			<a class="nav-item nav-link" href="#">Reticula</a>
+		      			<a class="nav-item nav-link" href="#">Programas</a>
+		      			<a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Maestros</a>
+    				</div>
+  					</div>
+			</nav>
+		</section>
+	</header>
+	
+	PARA PONER FORMULARIO, br es salto de linea
+	<form action="">
+		Nombre:
+		<input type="text" placeholder="Ingresa Nombre" name="nombre" maxlength="20">
+		<br>
+		Tel:
+		<input type="tel">
+		<br>
+		Hombre:
+		<input type="radio" name:"a">
+		Mujer:
+		<input type="radio" name:"a">
+		<br>
+		Acepta terminos:
+		<input type="checkbox">
+		<br>
+		Edad:
+		<input type="number"
+		min="18">
+		<br>
+		<input type="range"
+		min=0; max=100; step:"10"
+		>
+		<br>
+		<input type="date">
+		Lugar:
+		<select name="lugar">
+			<option value="0">
+				-----------
+			</option>
+			<option value="01">
+				Aguascalientes
+			</option>
+			<option value="02">
+				Calvillo
+			</option>
+		</select>
+
+		
+
+
+		
+
+	</form>
+
+	
+
+	<div class="container ">
+		<section class="main row">
+				<section class="slide-main col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+		  			<div class="carousel-inner">
+		    			<div class="carousel-item active" data-interval="10000">
+		      				<img src="imagenes/alumnos.jpg" class="d-block w-100" alt="...">
+		    			</div>
+		    			<div class="carousel-item" data-interval="2000">
+		      				<img src="imagenes/puños.jpg" class="d-block w-100" alt="...">
+		    			</div>
+		    			<div class="carousel-item">
+		      				<img src="imagenes/ITAOXXO.jpg" class="d-block w-100" alt="...">
+		    			</div>
+		  			</div>
+		  			<a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+		   		 		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    			<span class="sr-only">Previous</span>
+		  			</a>
+		 			 <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+		    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    			<span class="sr-only">Next</span>
+	  				</a>
+				</div>
+			</section>
+		</section>
+
+		
+
+
+		<!--Con xs ponemos 12 para que este la pantalla completa -->
+		<section class="main row">
+			<article class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+				<p>
+					<h3>NOSOTROS</h3>
+					La ingenieria en tecnologias de la informacion y las comunicaciones esta conformada por el conjunto de recursos necesarios para el procesamiento de la informacion asi como la administracion o gestion de las comunicaciones. Crea, diseña, implementa y administra sistemas de computo relacionados con las Tecnologias de Informacion y las comunicaciones, asi como de redes de computo, bases de datos para la toma de decisiones y dispositivos con software empotrado.
+				</p>
+			</article>	
+			<aside class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+				<p>
+					<h3>¿TICS ES PARA TI?</h3>
+						Preguntate si tienes:
+						 Interes por las redes de computadoras y en aprender a desarrollar aplicaciones para dispositivos moviles, gusto o habilidad para las ciencias exactas (Matematicas, calculo integral, etc.) capacidad intelectual y habilidades de razonamiento logico utilizando sistemas de computo.
+						
+				</p>
+			</aside>
+		</section>
+
+		<!--<div class="clearfix visible-sm-block"></div>-->
+
+		<!--La de arriba es una fila y esta es otra-->
+		<div class="row">
+			
+				<div class="col-xs-12 col-sm-6 col-md-3 ">
+					<div class="card" style="width:85%; height: 100%;  18rem;">
+	  					<img src="imagenes/tics.jpg" class="card-img-top" alt="...">
+		 				 <div class="card-body">
+			   				 <h5 class="card-title">¿QUE HACE UN ING EN TICS?</h5>
+			    			<p class="card-text">Una clasica pregunta que quiza te eeste haciendo en este momento. Aqui te lo explicamos</p>
+			    			<a href="#" class="btn btn-primary">LEER MAS</a>
+	  				      </div>
+				     </div>
+				</div>
+				
+				
+				
+			
+			
+			<!--si eliminamos una columna simplemente desaparece pero las otras no se acomodan -->
+			<div class="col-xs-12 col-sm-6 col-md-3 ">
+
+
+				<div class="card" style="width:85%; height: 100%; 18rem;">
+  					<img src="imagenes/oficina2.jpg" class="card-img-top" alt="...">
+	 				 <div class="card-body">
+		   				 <h5 class="card-title">¿DONDE TRABAJAN?</h5>
+		    			<p class="card-text">Una clasica pregunta que quiza te eeste haciendo en este momento. Aqui te lo explicamos</p>
+		    			<a href="#" class="btn btn-primary">LEER MAS</a>
+	  				</div>
+				
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 ">
+				<div class="card" style="width:85%; height: 100%; 18rem;">
+  					<img src="imagenes/ingreso.jpg" class="card-img-top" alt="...">
+	 				 <div class="card-body">
+		   				 <h5 class="card-title">INGRESO PROMEDIO</h5>
+		    			<p class="card-text">Una clasica pregunta que quiza te eeste haciendo en este momento. Aqui te lo explicamos</p>
+		    			<a href="#" class="btn btn-primary">LEER MAS</a>
+	  				</div>
+	  			</div>
+				
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+			<div class="card" style="width:85%; height: 100%; 18rem;">
+  					<img src="imagenes/interesante.jpg" class="card-img-top" alt="...">
+	 				 <div class="card-body">
+		   				 <h5 class="card-title">DATOS CURIOSOS</h5>
+		    			<p class="card-text">Una clasica pregunta que quiza te eeste haciendo en este momento. Aqui te lo explicamos</p>
+		    			<a href="#" class="btn btn-primary">LEER MAS</a>
+	  				</div>
+				
+			</div>
+			</div>
+		</div>
+		
+		</section>
+		<article class="container fluid col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h2>UN POCO DE NOSOTROS, UN POCO DE AMBIENTE TICS</h2>
+			</article>
+		<div class="row">
+			
+				
+			<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<img src="imagenes/uno.jpg" width="350" height="200">
+			</article>	
+			<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<img src="imagenes/dos.jpeg" width="350" height="200">
+			</article>	
+			<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<img src="imagenes/tres.jpg" width="350" height="200">
+			</article>	
+		
+		</div>
+		<div class="row">
+			
+				
+			<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<h3>Maestros capacitados</h3>
+			</article>	
+			<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<h3>Aulas equipadas</h3>
+			</article>	
+			<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<h3>Variedad cultural</h3>
+			</article>	
+		
+		</div>
+		<div class="row">
+			
+				
+			<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<img src="imagenes/cuatro.jpg" width="350" height="200">
+			</article>	
+			<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<img src="imagenes/cinco.png" width="350" height="200">
+			</article>	
+			<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<img src="imagenes/seis.jpg" width="350" height="200">
+			</article>	
+		
+		</div>
+		<div class="row">
+			
+				
+			<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<h3>Libertad de expresion</h3>
+			</article>	
+			<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<h3>Actividades deportivas</h3>
+			</article>	
+			<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<h3>Excelentes instalaciones</h3>
+			</article>	
+		
+		</div>
+	</div>
+
+	
+
+	<footer>
+
+			<div class="row">
+				<div class="container-fluid col-xs-9 col-sm-9 col-md-9 col-lg-9">
+
+					<p>Copyright © 2019. Instituto Tecnológico de Aguascalientes. Todos los Derechos Reservados.
+
+						Av. Adolfo López Mateos #1801 Ote. Fracc. Bona Gens, C.P. 20256 
+
+						Aguascalientes, Ags., México.
+
+						Tel. 449 9 10 50 02
+
+						E-Mail: webmaster@mail.ita.mx</p>
+				
+				
+			
+				</div>
+
+				<div class="container-fluid col-xs-1 col-sm-1 col-md-1 col-lg-1">
+
+					<div id="fb">
+						<img src="imagenes/fb.png" width="50" height="40">
+					</div>
+				
+				
+			
+				</div>
+
+				<div class="container-fluid col-xs-1 col-sm-1 col-md-1 col-lg-1">
+
+							<div id="ins">
+								<img src="imagenes/ins.png" width="70" height="65">
+							</div>
+					
+					
+				
+				</div>
+				<div class="container-fluid col-xs-1 col-sm-1 col-md-1 col-lg-1">
+
+							<div id="tw">
+								<img src="imagenes/tw.png" width="50" height="40">
+							</div>
+					
+					
+				
+				</div>
+			</div>
+
+
+	
+	</footer>
+
+	
+	
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
