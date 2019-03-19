@@ -23,8 +23,8 @@ footer{
     width:210px;
     /*background-color:#7FA8F4;*/
     /*margin legt es margen izquierdo*/
-    margin-left:30px;
-    margin-bottom: 0px;
+    margin-left:10px;
+    margin-bottom: 40px;
     /*COMO HACER PARA PONER IMAGEN EN LA PARTE DEL LOGO?*/
     /*display: inline-block;*/
     background-image: url(../imagenes/logoTICS.png) ;
@@ -56,7 +56,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	
 }
 */
-	body
+body
 {
     /*background-color: black; /* La página de fondo será negra */
     background: rgba(74,74,74,1);
